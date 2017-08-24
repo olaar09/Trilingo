@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trilingo</string>
+    <string name="choose_lang">Select language</string>
+    <string-array name="country_arrays">
+        <item>Select a language</item>
+        <item>Yoruba language</item>
+        <item>Igbo language</item>
+        <item>Hausa language</item>
+    </string-array>
+</resources>
