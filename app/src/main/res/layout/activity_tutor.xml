@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="vudoolearn.com.trilingo.Tutor">
+    tools:context="vudoolearn.com.trilingo.LessonMenu">
 
-</android.support.constraint.ConstraintLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intstruct"
+        android:layout_margin="30dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:text="Choose one of the menus below to start learning" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lesson_menu_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/intstruct"
+        android:scrollbars="vertical"/>
+
+    
+</RelativeLayout>

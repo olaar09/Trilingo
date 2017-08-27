@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Tutor"></activity>
+        <activity
+            android:name=".LessonMenu"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".LessonChoosen"
+            android:parentActivityName=".LessonMenu">
+
+        </activity>
     </application>
 
 </manifest>
